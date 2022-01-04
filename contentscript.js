@@ -22,7 +22,6 @@ var pink = ["#161B22", "#f8bbd0", "#f06292", "#e91e63", "#880e4f"];
 var purple = ["#161B22", "#e1bee7", "#ba68c8", "#8e24aa", "#4a148c"];
 var red = ["#161B22", "#ffcdd2", "#e57373", "#e53935", "#b71c1c"];
 var teal = ["#161B22", "#b2dfdb", "#4db6ac", "#00897b", "#004d40"];
-var yellowMd = ["#161B22", "#fff9c4", "#fff176", "#ffd835", "#f57f17"];
 
 var colors = {
   github: github,
@@ -47,7 +46,6 @@ var colors = {
   purple: purple,
   red: red,
   teal: teal,
-  yellowMd: yellowMd,
 };
 
 var cssGitHubVars = [
