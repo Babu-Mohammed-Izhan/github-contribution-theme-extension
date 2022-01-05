@@ -103,7 +103,9 @@ function applyColorToProgress(color) {
   if (progress[0]) {
 
     for (var i = 1, l = progress.length; i < l; i++) {
-      progress[i].style.setProperty("background-color", color[2], "important");
+      if(!progress[i].className.includes('color-bg-success-emphasis')){
+        progress[i].style.setProperty("background-color", color[2], "important");
+      }
     }
   }
   
