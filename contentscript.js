@@ -116,9 +116,9 @@ function applyOptions() {
       color.favoriteColor = "github";
     }
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      colors[color.favoriteColor][5] =  
+      colors[color.favoriteColor][4] =  "#161B22";
     } else {
-      colors[color.favoriteColor][5] = "#eeeeee"
+      colors[color.favoriteColor][4] = "#eeeeee";
     }
     console.log(colors[color.favoriteColor])
     applyColorToCssGitHubVars(colors[color.favoriteColor].reverse());
