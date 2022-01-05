@@ -8,7 +8,7 @@ function saveOptions() {
     },
     function () {
       var status = document.getElementById("status");
-      status.textContent = "Options saved.";
+      status.textContent = "Options saved. Reload to see Chnages.";
       setTimeout(function () {
         status.textContent = "";
       }, 750);

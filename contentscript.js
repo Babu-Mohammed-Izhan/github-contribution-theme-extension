@@ -113,8 +113,14 @@ function applyColorToProgress(color) {
 function applyOptions() {
   chrome.storage.local.get("favoriteColor", function (color) {
     if (!color.favoriteColor) {
-      color.favoriteColor = "halloween";
+      color.favoriteColor = "github";
     }
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      colors[color.favoriteColor][5] = "#161B22"
+    } else {
+      colors[color.favoriteColor][5] = "#eeeeee"
+    }
+    console.log(colors[color.favoriteColor])
     applyColorToCssGitHubVars(colors[color.favoriteColor].reverse());
     applyColorToLegend(colors[color.favoriteColor].reverse());
     applyColorToProgress(colors[color.favoriteColor].reverse());
