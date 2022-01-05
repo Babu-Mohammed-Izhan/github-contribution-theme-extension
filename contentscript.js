@@ -120,7 +120,6 @@ function applyOptions() {
     } else {
       colors[color.favoriteColor][4] = "#eeeeee";
     }
-    console.log(colors[color.favoriteColor])
     applyColorToCssGitHubVars(colors[color.favoriteColor].reverse());
     applyColorToLegend(colors[color.favoriteColor].reverse());
     applyColorToProgress(colors[color.favoriteColor].reverse());
