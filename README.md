@@ -2,6 +2,8 @@
 
 ### This is a google chrome extension in which you can change your github contributions graph chart to 23 premade themes.
 
+<img src="https://res.cloudinary.com/dm8ogh4lv/image/upload/v1643789336/GithubextensionImage_apmgjk.png"></img>
+
 ### Steps to add extension:
 1. Download the extension zip file.
 2. Extract the zip file.
