@@ -11,9 +11,20 @@
       "run_at": "document_end"
     }
   ],
+  "permissions": ["storage"],
   "action": {
-    "default_popup": "options.html"
+    "default_popup": "options.html",
+    "default_icon": {
+      "16": "/images/github.png",
+      "32": "/images/github.png",
+      "48": "/images/github.png",
+      "128": "/images/github.png"
+    }
   },
-
-  "permissions": ["storage"]
+  "icons": {
+    "16": "/images/github.png",
+    "32": "/images/github.png",
+    "48": "/images/github.png",
+    "128": "/images/github.png"
+  }
 }
