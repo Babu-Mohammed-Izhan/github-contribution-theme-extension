@@ -13,6 +13,8 @@
 6. Select the extension file.
 7. Now, you will we see the extension in the extension manager.
 8. Turn on the extension.
+9. Click on the puzzle piece on the top right and click on the extension with the green github icon
+10. Use the dropdown to change your color. Refresh to see the changes.
 
 ### It uses manifest 3.0 for google chrome extension.
 
